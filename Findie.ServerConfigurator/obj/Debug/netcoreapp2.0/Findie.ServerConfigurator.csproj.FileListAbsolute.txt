@@ -1,0 +1,12 @@
+/home/bart/RiderProjects/Findie.Server/Findie.ServerConfigurator/bin/Debug/netcoreapp2.0/Findie.ServerConfigurator.deps.json
+/home/bart/RiderProjects/Findie.Server/Findie.ServerConfigurator/bin/Debug/netcoreapp2.0/Findie.ServerConfigurator.runtimeconfig.json
+/home/bart/RiderProjects/Findie.Server/Findie.ServerConfigurator/bin/Debug/netcoreapp2.0/Findie.ServerConfigurator.runtimeconfig.dev.json
+/home/bart/RiderProjects/Findie.Server/Findie.ServerConfigurator/bin/Debug/netcoreapp2.0/Findie.ServerConfigurator.dll
+/home/bart/RiderProjects/Findie.Server/Findie.ServerConfigurator/bin/Debug/netcoreapp2.0/Findie.ServerConfigurator.pdb
+/home/bart/RiderProjects/Findie.Server/Findie.ServerConfigurator/bin/Debug/netcoreapp2.0/FindieServer.dll
+/home/bart/RiderProjects/Findie.Server/Findie.ServerConfigurator/bin/Debug/netcoreapp2.0/FindieServer.pdb
+/home/bart/RiderProjects/Findie.Server/Findie.ServerConfigurator/obj/Debug/netcoreapp2.0/Findie.ServerConfigurator.csproj.CoreCompileInputs.cache
+/home/bart/RiderProjects/Findie.Server/Findie.ServerConfigurator/obj/Debug/netcoreapp2.0/Findie.ServerConfigurator.AssemblyInfoInputs.cache
+/home/bart/RiderProjects/Findie.Server/Findie.ServerConfigurator/obj/Debug/netcoreapp2.0/Findie.ServerConfigurator.AssemblyInfo.cs
+/home/bart/RiderProjects/Findie.Server/Findie.ServerConfigurator/obj/Debug/netcoreapp2.0/Findie.ServerConfigurator.dll
+/home/bart/RiderProjects/Findie.Server/Findie.ServerConfigurator/obj/Debug/netcoreapp2.0/Findie.ServerConfigurator.pdb

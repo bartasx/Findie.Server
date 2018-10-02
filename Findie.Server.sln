@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Findie.ServerCi", "Findie.ServerConfigurator\Findie.ServerConfigurator.csproj", "{605EC4B2-5097-4477-8E21-775665396720}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Findie.Test", "Findie.Test\Findie.Test.csproj", "{4D75A6E4-DAB8-4C0E-914E-B7C337773C80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindieServer", "FindieServer\FindieServer.csproj", "{DCE92E3C-9C26-437E-9092-A8BD771ADD52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{605EC4B2-5097-4477-8E21-775665396720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{605EC4B2-5097-4477-8E21-775665396720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{605EC4B2-5097-4477-8E21-775665396720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{605EC4B2-5097-4477-8E21-775665396720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D75A6E4-DAB8-4C0E-914E-B7C337773C80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D75A6E4-DAB8-4C0E-914E-B7C337773C80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D75A6E4-DAB8-4C0E-914E-B7C337773C80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D75A6E4-DAB8-4C0E-914E-B7C337773C80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCE92E3C-9C26-437E-9092-A8BD771ADD52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCE92E3C-9C26-437E-9092-A8BD771ADD52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCE92E3C-9C26-437E-9092-A8BD771ADD52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCE92E3C-9C26-437E-9092-A8BD771ADD52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

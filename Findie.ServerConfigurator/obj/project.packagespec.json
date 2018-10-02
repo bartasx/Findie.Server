@@ -1,0 +1,47 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/bart/source/findie.server/Findie.ServerConfigurator/Findie.ServerConfigurator.csproj",
+    "projectName": "Findie.ServerConfigurator",
+    "projectPath": "/home/bart/source/findie.server/Findie.ServerConfigurator/Findie.ServerConfigurator.csproj",
+    "outputPath": "/home/bart/source/findie.server/Findie.ServerConfigurator/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {
+          "/home/bart/source/findie.server/FindieServer/FindieServer.csproj": {
+            "projectPath": "/home/bart/source/findie.server/FindieServer/FindieServer.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
