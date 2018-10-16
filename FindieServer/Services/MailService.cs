@@ -8,7 +8,7 @@ namespace FindieServer.Services
     {
         public static void SendRegistrationMail(string userMail, string username)
         {
-            var fromMail = new MailAddress("findienoreply@gmail.com", "From Name");
+            var fromMail = new MailAddress("findienoreply@gmail.com", "From Findie Team");
             var toMail = new MailAddress(userMail, "To Name");
             const string fromPassword = "49fKD#(LSdnvkslLI*)#RJKHFNV<SKJDOO#*jsdhfw__ru4hfbskh3^*^()%_DNFGJWFKDMMX*@W(&";
             string subject = $"Welcome, {username} !";
@@ -38,7 +38,6 @@ namespace FindieServer.Services
 
         public static void SendMailToTester(string testerMail)
         {
-
             var fromMail = new MailAddress("findienoreply@gmail.com", "From Name");
             try
             {

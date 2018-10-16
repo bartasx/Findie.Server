@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Findie.Common.Models;
+using Findie.Common.Models.IdentityModels;
+using FindieServer.DbModels;
 using FindieServer.Managers.Interfaces;
-using FindieServer.Models;
-using FindieServer.Models.DbModels;
-using FindieServer.Models.IdentityModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -246,6 +246,7 @@ namespace FindieServer.Managers
                 {
                     commentsList.Add(new EventCommentModel()
                     {
+                        Id = comment.Id,
                         Username = this._userManager.FindByIdAsync(comment.UserId.ToString()).Result.UserName,
                         UserId = comment.UserId,
                         TimeStamp = comment.TimeStamp,
@@ -341,9 +342,17 @@ namespace FindieServer.Managers
             }
         }
 
-        public Task RemoveCommentFromSpecificEvent()
+        public async Task RemoveCommentFromEvent(EventCommentModel model)
         {
-            throw new NotImplementedException();
+            var comment =
+                await (from comments in this._dbContext.EventComments where model.Id == comments.Id select comments)
+                    .FirstOrDefaultAsync();
+
+            if (comment != null)
+            {
+                this._dbContext.Remove(comment);
+                await this._dbContext.SaveChangesAsync();
+            }
         }
 
         private async Task<Guid> GenerateImageName()

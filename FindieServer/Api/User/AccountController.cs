@@ -1,7 +1,6 @@
 ﻿using System.Threading.Tasks;
+using Findie.Common.Models;
 using FindieServer.Managers.Interfaces;
-using FindieServer.Models;
-using FindieServer.ViewModels;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -20,7 +19,7 @@ namespace FindieServer.Api.User
 
         [HttpGet]
         [Route("Login")]
-        public async Task<IActionResult> LoginUser(LoginViewModel model)
+        public async Task<IActionResult> LoginUser(LoginModel model)
         {
             if (ModelState.IsValid)
             {
@@ -35,7 +34,7 @@ namespace FindieServer.Api.User
 
         [HttpPost]
         [Route("Register")]
-        public async Task<IActionResult> RegisterNewAccount([FromBody]RegisterViewModel model)
+        public async Task<IActionResult> RegisterNewAccount([FromBody]RegisterModel model)
         {
             if (ModelState.IsValid)
             {

@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
-using FindieServer.Models.DbModels;
-using FindieServer.Models.IdentityModels;
+using Findie.Common.Models.IdentityModels;
+using FindieServer.DbModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;

@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
+using FindieServer.DbModels;
 using FindieServer.Enums;
 using FindieServer.Managers.Interfaces;
-using FindieServer.Models.DbModels;
 
 namespace FindieServer.Managers
 {

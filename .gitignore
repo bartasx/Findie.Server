@@ -1,0 +1,16 @@
+
+FindieServer/bin/
+
+FindieServer/obj/
+
+Findie\.Tests/bin/
+
+Findie\.Tests/obj/
+
+Findie\.ServerConfigurator/bin/
+
+Findie\.ServerConfigurator/obj/
+
+Findie\.Common/bin/
+
+Findie\.Common/obj/

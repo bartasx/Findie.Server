@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
+using FindieServer.DbModels;
 using FindieServer.Managers.Interfaces;
-using FindieServer.Models.DbModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FindieServer.Api.User

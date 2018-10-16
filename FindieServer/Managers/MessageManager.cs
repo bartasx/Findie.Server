@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Findie.Common.Models.IdentityModels;
+using FindieServer.DbModels;
 using FindieServer.Managers.Interfaces;
-using FindieServer.Models.DbModels;
-using FindieServer.Models.IdentityModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 

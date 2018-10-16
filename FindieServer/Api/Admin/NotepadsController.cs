@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Linq;
 using System.Threading.Tasks;
-using FindieServer.Models.AdminsModel;
-using FindieServer.Models.DbModels;
+using Findie.Common.Models.AdminsModel;
+using FindieServer.DbModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 

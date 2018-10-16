@@ -4,12 +4,11 @@ using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
+using Findie.Common.Models;
+using Findie.Common.Models.IdentityModels;
+using FindieServer.DbModels;
 using FindieServer.Managers.Interfaces;
-using FindieServer.Models;
-using FindieServer.Models.DbModels;
-using FindieServer.Models.IdentityModels;
 using FindieServer.Services;
-using FindieServer.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -33,7 +32,7 @@ namespace FindieServer.Managers
             this._db = databaseContext;
         }
 
-        public async Task<string> LoginUser(LoginViewModel model)
+        public async Task<string> LoginUser(LoginModel model)
         {
             var result = await _signInManager.PasswordSignInAsync(model.Username,
                 model.Password, model.RememberMe, lockoutOnFailure: false);
@@ -68,9 +67,10 @@ namespace FindieServer.Managers
                 return true;
             }
             return false;
+                
         }
 
-        public async Task<string> RegisterAccount(RegisterViewModel model)
+        public async Task<string> RegisterAccount(RegisterModel model)
         {
             var user = new AppUser()
             {

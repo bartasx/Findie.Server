@@ -2,9 +2,9 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Threading.Tasks;
+using Findie.Common.Models;
 using FindieServer.Interfaces;
 using FindieServer.Managers.Interfaces;
-using FindieServer.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FindieServer.Api.User

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
-using FindieServer.Models;
+using Findie.Common.Models;
 
 namespace FindieServer.Managers.Interfaces
 {
@@ -18,6 +18,6 @@ namespace FindieServer.Managers.Interfaces
         Task<List<EventCommentModel>> GetComments(int id);
         Task<List<EventModel>> GetAllSubscribedEvents(string username);
         Task CommentSpecificEvent(EventCommentModel eventCommentModel);
-        Task RemoveCommentFromSpecificEvent();
+        Task RemoveCommentFromEvent(EventCommentModel eventCommentModel);
     }
 }

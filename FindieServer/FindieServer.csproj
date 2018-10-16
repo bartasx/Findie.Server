@@ -36,4 +36,8 @@
       <None Remove="wwwroot\**" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Findie.Common\Findie.Common.csproj" />
+    </ItemGroup>
+
 </Project>

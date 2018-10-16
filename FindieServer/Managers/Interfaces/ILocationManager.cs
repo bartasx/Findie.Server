@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using FindieServer.Models;
+using Findie.Common.Models;
 
 namespace FindieServer.Managers.Interfaces
 {

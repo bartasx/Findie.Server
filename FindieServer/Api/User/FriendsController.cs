@@ -2,10 +2,10 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Threading.Tasks;
+using Findie.Common.Models;
+using Findie.Common.Models.IdentityModels;
 using FindieServer.Interfaces;
 using FindieServer.Managers.Interfaces;
-using FindieServer.Models;
-using FindieServer.Models.IdentityModels;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;

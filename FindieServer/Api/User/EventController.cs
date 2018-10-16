@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
+using Findie.Common.Models;
 using FindieServer.Managers.Interfaces;
-using FindieServer.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -128,8 +128,9 @@ namespace FindieServer.Api.User
 
         [HttpDelete]
         [Route("DeleteCommentEvent")]
-        public async Task<IActionResult> DeleteCommentEvent()
+        public async Task<IActionResult> DeleteCommentEvent([FromBody] EventCommentModel model)
         {
+            await this._eventsManager.RemoveCommentFromEvent(model);
             return Ok();
         }
 

@@ -11,7 +11,9 @@ namespace Findie.ServerConfigurator
 
             try
             {
-                FindieServer.Program.Main(null);
+                Logger.Log(System.Runtime.InteropServices.RuntimeEnvironment.GetSystemVersion(), LoggerMessages.Info);
+                Logger.Log(System.Runtime.InteropServices.RuntimeInformation.OSDescription, LoggerMessages.Warning);
+                //FindieServer.Program.Main(null);
             }
             catch (Exception ex)
             {
